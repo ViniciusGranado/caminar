@@ -61,10 +61,7 @@ main {
   max-width: 1390px;
 }
 
-/* Header image section*/
-main .header-image {
-  grid-area: "header-image";
-}
+/* HEADER IMAGE*/
 .header-image img{
   height: auto;
   width: 100%;

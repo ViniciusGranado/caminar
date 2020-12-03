@@ -53,16 +53,10 @@ header span {
   opacity: 0.6;
 }
 
-/* Main */
+/* MAIN */
 main {
   border-bottom-right-radius: 5px;
   box-shadow: 0 0 12px black;
-  display: grid;
-  grid-template: repeat(4, auto) / 1fr;
-  grid-template-areas: "header-image"
-                       "presentation"
-                       "gallery"
-                       "spotlight";
   margin: 0 auto;
   max-width: 1390px;
 }

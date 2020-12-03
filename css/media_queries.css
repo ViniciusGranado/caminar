@@ -11,10 +11,11 @@
 		font-size: 1rem;
 	}
 
-	/* Main */
+	/* MAIN */
 	main {
 		max-width: 1170px;
 	}
+
 	/* Presentation section*/
 	.presentation .presentation-header {
 			height: 200px;
@@ -72,6 +73,7 @@
 }
   
 @media (max-width: 1310px) {
+	/* MAIN */
 	main {
 		max-width: 90%;
 	}
@@ -131,8 +133,6 @@
 	header span {
 		font-size: 1.0666rem;
 	}
-
-	/*Main*/
 
 	/* Presentation section*/
 	.presentation .presentation-header {
@@ -213,8 +213,6 @@
 	header h1 {
 		font-size: 3.2rem;
 	}
-	
-	/*Main*/
 
 	/* Presentation section*/
 	.presentation .presentation-header {

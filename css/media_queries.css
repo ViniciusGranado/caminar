@@ -38,8 +38,8 @@
 		margin-bottom: 30px;
 	}
 
-	/* Gallery section */
-	main .gallery {
+	/* GALLERY */
+	.gallery {
 		padding: 88px;
 	}
 
@@ -88,19 +88,19 @@
 		top: 34%;
 	}
 
-	/* Gallery section */
-	main .gallery {
+	/* GALLERY */
+	.gallery {
 		padding: 59px;
 	}
-	main .gallery-header {
+	.gallery-header {
 		padding: 30px;
 	}
-	main .gallery-header h2 {
-		font-size: 26px;
+	.gallery-header h2 {
+		font-size: 1.7333rem;
 		margin-bottom: 20px;
 	}
-	main .gallery-header p {
-		font-size: 12px;
+	.gallery-header p {
+		font-size: 0.8rem;
 	}
 
 	/* Spotlight section */
@@ -151,27 +151,28 @@
 		margin-bottom: 32px;
 	}
 
-	/* Gallery section */
-	main .gallery {
+	/* GALLERY */
+	.gallery {
 		padding: 64px;
 	}
-	main .gallery .gallery-grid {
-		grid-template: repeat(4, auto) / 1fr;
-		grid-template-areas: "gallery-header"
-												 "gallery1"
-												 "gallery2"
-												 "gallery3"
-												 "gallery4";
+	.gallery-grid {
+		grid-template: repeat(5, auto) / 1fr;
+		grid-template-areas: 
+			"gallery-header"
+			"gallery1"
+			"gallery2"
+			"gallery3"
+			"gallery4";
 	}
-	main .gallery-header {
+	.gallery-header {
 		padding: 32px;
 	}
-	main .gallery-header h2 {
-		font-size: 28px;
+	.gallery-header h2 {
+		font-size: 1.8666rem;
 		margin-bottom: 25px;
 	}
-	main .gallery-header p {
-		font-size: 12.8px;
+	.gallery-header p {
+		font-size: 0.85333rem;
 	}
 
 	/* Spotlight section */
@@ -230,14 +231,14 @@
 	}
 
 	/* Gallery section */
-	main .gallery {
+	.gallery {
 		padding: 32px;
 	}
-	main .gallery-header {
+	.gallery-header {
 		padding: 24px;
 	}
-	main .gallery-header h2 {
-		font-size: 24px;
+	.gallery-header h2 {
+		font-size: 1.6rem;
 	}
 
 	/* Spotlight section */

@@ -16,23 +16,23 @@
 		max-width: 1170px;
 	}
 
-	/* Presentation section*/
-	.presentation .presentation-header {
-			height: 200px;
-			padding: 59px 30px;
+	/* PRESENTATION */
+	.presentation-header {
+		height: 200px;
+		padding: 59px 30px;
 	}
 	.presentation-header h2 {
-		font-size: 26px;
+		font-size: 1.7333rem;
 	}
 	.presentation-header p {
-			font-size: 11px;
+		font-size: 0.7333rem;
 	}
 
 	.presentation-text {
 		padding: 88px;
 	}
 	.presentation-text p {
-		font-size: 14.6666px;
+		font-size: 0.9777rem;
 	}
 	.presentation-text p:first-of-type {
 		margin-bottom: 30px;
@@ -134,15 +134,15 @@
 		font-size: 1.0666rem;
 	}
 
-	/* Presentation section*/
-	.presentation .presentation-header {
-			padding: 48px 32px;
+	/* PRESENTATION */
+	.presentation-header {
+		padding: 48px 32px;
 	}
 	.presentation-header h2 {
-			font-size: 28px;
+		font-size: 1.8666rem;
 	}
 	.presentation-header p {
-			font-size: 12.8px;
+		font-size: 0.85333rem;
 	}
 	.presentation-text {
 		padding: 64px;
@@ -214,22 +214,19 @@
 		font-size: 3.2rem;
 	}
 
-	/* Presentation section*/
+	/* PRESENTATION */
 	.presentation .presentation-header {
+		height: 200px;
 		padding: 48px 32px;
-		height: 180px;
 	}
 	.presentation-header h2 {
-		font-size: 24px;
-	}
-	.presentation-header p {
-		font-size: 12.8px;
+		font-size: 1.6rem;
 	}
 	.presentation-text {
 		padding: 32px;
 	}
 	.presentation-text p {
-		font-size: 16px;
+		font-size: 1.0666rem;
 	}
 
 	/* Gallery section */

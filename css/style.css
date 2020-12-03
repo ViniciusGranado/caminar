@@ -67,35 +67,28 @@ main {
   width: 100%;
 }
 
-/* Presentation section*/
-main .presentation {
-  grid-area: "presentation";
-}
-.presentation .presentation-header {
+/* PRESENTATION */
+.presentation-header {
   background-color: #FFF;
   height: 240px;
   padding: 69px 35px;
   text-align: center;
 }
 .presentation-header h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  position: relative;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 .presentation-header h2::after {
   background-color: #d8d8d8;
   content: '';
   display: block;
   height: 1px;
-  left: 50%;
-  margin-top: 10px;
-  position: absolute;
-  transform: translateX(-50%);
+  margin: 10px auto 0;
   width: 111px;
 }
 .presentation-header p {
   color: #B6B6B6;
-  font-size: 14px;
+  font-size: 0.9333rem;
   letter-spacing: 4px;
 }
 
@@ -105,7 +98,7 @@ main .presentation {
   padding: 104px;
 }
 .presentation-text p {
-  font-size: 17.3333px
+  font-size: 1.155rem;
 }
 .presentation-text p:first-of-type {
   margin-bottom: 35px;

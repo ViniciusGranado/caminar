@@ -1,0 +1,48 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transition: 0.4s ease-out;
+  width: 100%;
+  z-index: 1;
+}
+.modal .inner-modal{
+  background-color: #FFF;
+  border: 10px solid #FFF;
+  left: 50%;
+  max-width: 70%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.5s ease-in;
+  width: fit-content;
+}
+.modal .inner-modal .modal-image {
+  height: auto;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+  width: 100%;
+}
+.modal .x-button {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  transform: translateX(100%);
+}
+
+/* Behavior when open */
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal .inner-modal.open {
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal .inner-modal .modal-image.open {
+  opacity: 1;
+}

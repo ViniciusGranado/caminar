@@ -1,13 +1,14 @@
 /* Media queries */
 @media (max-width: 1680px) {
+	/* HEADER */
   header {
     height: 224px;
   }
   header h1 {
-		font-size: 59px;
+		font-size: 3.9333rem;
 	}
 	header span {
-		font-size: 15px;
+		font-size: 1rem;
 	}
 
 	/* Main */
@@ -77,6 +78,7 @@
 }
 
 @media (max-width: 1280px) {
+	/* HEADER */
 	header {
 		height: 192px;
 	}
@@ -118,14 +120,16 @@
 		background-position: top;
 		background-size: contain;
 	}
+
+	/* HEADER */
 	header {
 		height: 215px;
 	}
 	header h1 {
-		font-size: 64px;
+		font-size: 4.2666rem;
 	}
 	header span {
-		font-size: 16px;
+		font-size: 1.0666rem;
 	}
 
 	/*Main*/
@@ -199,6 +203,7 @@
 }
   
 @media (max-width: 736px) {
+	/* HEADER */
 	header {
 		height: 175px;
 	}
@@ -206,12 +211,9 @@
 		top: 45%;
 	}
 	header h1 {
-		font-size: 48px;
+		font-size: 3.2rem;
 	}
-	header span {
-		font-size: 16px;
-	}
-
+	
 	/*Main*/
 
 	/* Presentation section*/
